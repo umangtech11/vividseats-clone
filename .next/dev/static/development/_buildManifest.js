@@ -14,12 +14,6 @@ self.__BUILD_MANIFEST = {
   "/stadium": [
     "static/chunks/pages/stadium.js"
   ],
-  "/team/[id]": [
-    "static/chunks/pages/team/[id].js"
-  ],
-  "/teams": [
-    "static/chunks/pages/teams.js"
-  ],
   "__rewrites": {
     "afterFiles": [],
     "beforeFiles": [],

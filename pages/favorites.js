@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { teams } from "../data/teams";
+import { teams } from "@/data/teamData";
 import { FaHeart } from "react-icons/fa";
 
 export default function FavoritesPage() {

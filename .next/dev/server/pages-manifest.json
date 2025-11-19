@@ -5,7 +5,5 @@
   "/_error": "pages/_error.js",
   "/events": "pages/events.js",
   "/events/[id]": "pages/events/[id].js",
-  "/stadium": "pages/stadium.js",
-  "/team/[id]": "pages/team/[id].js",
-  "/teams": "pages/teams.js"
+  "/stadium": "pages/stadium.js"
 }
