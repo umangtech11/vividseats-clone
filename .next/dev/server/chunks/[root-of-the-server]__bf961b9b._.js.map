@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 16, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/umang/vividseats/pages/api/events.js"],"sourcesContent":["export default async function handler(req, res) {\r\n  const { keyword = \"\" } = req.query;\r\n  const API_KEY = process.env.TICKETMASTER_API_KEY;\r\n\r\n  const URL = `https://app.ticketmaster.com/discovery/v2/events.json?apikey=${API_KEY}&keyword=${keyword}&size=50`;\r\n\r\n  try {\r\n    const response = await fetch(URL);\r\n    const data = await response.json();\r\n    return res.status(200).json(data._embedded?.events || []);\r\n  } catch (error) {\r\n    return res.status(500).json({\r\n      error: \"Failed to fetch events\",\r\n      details: error.toString(),\r\n    });\r\n  }\r\n}\r\n"],"names":[],"mappings":";;;;AAAe,eAAe,QAAQ,GAAG,EAAE,GAAG;IAC5C,MAAM,EAAE,UAAU,EAAE,EAAE,GAAG,IAAI,KAAK;IAClC,MAAM,UAAU,QAAQ,GAAG,CAAC,oBAAoB;IAEhD,MAAM,MAAM,CAAC,6DAA6D,EAAE,QAAQ,SAAS,EAAE,QAAQ,QAAQ,CAAC;IAEhH,IAAI;QACF,MAAM,WAAW,MAAM,MAAM;QAC7B,MAAM,OAAO,MAAM,SAAS,IAAI;QAChC,OAAO,IAAI,MAAM,CAAC,KAAK,IAAI,CAAC,KAAK,SAAS,EAAE,UAAU,EAAE;IAC1D,EAAE,OAAO,OAAO;QACd,OAAO,IAAI,MAAM,CAAC,KAAK,IAAI,CAAC;YAC1B,OAAO;YACP,SAAS,MAAM,QAAQ;QACzB;IACF;AACF"}}]
+}

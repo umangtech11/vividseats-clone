@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 10, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/umang/vividseats/pages/index.js"],"sourcesContent":["export default function Home() {\r\n  return (\r\n    <div className=\"p-10 text-indigo-600 text-3xl font-bold\">\r\n      Next.js + Tailwind Working 🎉\r\n    </div>\r\n  );\r\n}\r\n"],"names":[],"mappings":";;;;;;AAAe,SAAS;IACtB,qBACE,qKAAC;QAAI,WAAU;kBAA0C;;;;;;AAI7D"}}]
+}

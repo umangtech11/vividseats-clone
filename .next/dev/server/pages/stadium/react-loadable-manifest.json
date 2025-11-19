@@ -1,0 +1,9 @@
+{
+  "[project]/components/SeatingChart/SeatingChart.tsx [client] (ecmascript, next/dynamic entry)": {
+    "id": "[project]/components/SeatingChart/SeatingChart.tsx [client] (ecmascript, next/dynamic entry)",
+    "files": [
+      "static/chunks/components_SeatingChart_53b8d894._.js",
+      "static/chunks/components_SeatingChart_SeatingChart_tsx_19205292._.js"
+    ]
+  }
+}

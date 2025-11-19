@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/umang/vividseats/pages/stadium.jsx"],"sourcesContent":["import SeatingChartPage from \"@/components/SeatingChart/SeatingChart\";\r\n\r\nexport default function Stadium() {\r\n  return <SeatingChartPage />;\r\n}\r\n"],"names":[],"mappings":";;;;;;;;;;;;AAEe,SAAS;IACtB,qBAAO,qKAAC;;;;;AACV"}}]
+}

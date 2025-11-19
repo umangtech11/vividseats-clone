@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/umang/vividseats/pages/stadium.tsx"],"sourcesContent":["import dynamic from \"next/dynamic\";\r\n\r\nconst SeatingChartPage = dynamic(\r\n  () => import(\"@/components/SeatingChart/SeatingChart\"),\r\n  { ssr: false }\r\n);\r\n\r\nexport default function Stadium() {\r\n  return <SeatingChartPage />;\r\n}\r\n"],"names":[],"mappings":";;;;;AAAA;;;;AAEA,MAAM,mBAAmB,IAAA,mIAAO,EAC9B;;;;;;IACE,KAAK;;AAGM,SAAS;IACtB,qBAAO,qKAAC;;;;;AACV"}}]
+}
